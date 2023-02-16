@@ -20,7 +20,7 @@ de livros menos penosa e vaga de informações para os usúarios, trazendo mais 
 <p align="justify">
 Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente desenvolvido em 2011 pela então Fog Creek Software. Em 2017, foi adquirido pela empresa australiana Atlassian. Ele opera um modelo de negócio freemium.
 </p>
-<p> Pode ser acessado em <a href="https://trello.com/pt-BR">Trello</a>.
+<p> Pode ser acessado em <a href="https://trello.com/b/af64KM1e/projeto-integrador">Quadro de Gestão do Projeto</a></p>
 </p>
 
 ## Tema principal do Projeto:
