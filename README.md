@@ -29,7 +29,7 @@ Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente
 
 ## Tema secundário do projeto:
 
-<p> Empréstimo e reserva de livros. </p>
+<p> Indexador de livros. </p>
 
 ## Área que se aplica:
 
