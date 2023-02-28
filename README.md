@@ -38,6 +38,37 @@ Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente
   <li> Sociais </li>
 </ul>
 
+## Funcionalidades
+
+Atores do sistema
+1. Usuário (Leitor)
+2. Funcionário
+3. Administrador
+O leitor acessará o sistema depois de ter sua conta autenticada pelo sistema, após
+esse procedimento, poderá ter acesso as seguintes funcionalidades:
+1. Ver seu perfil
+2. Acessar o acervo (consultar um ou mais livros onde ele poderá ver a sinopse, o 
+autor, a editora dentre outras informações; como também encontrar
+localização física do livro. Por fim, a opção de salvar livro como favorito)
+3. Acessar os livros salvos (favoritos)
+O usuário funcionário acessará o sistema depois de ter sua conta autenticada pelo sistema,
+após esse procedimento, poderá ter acesso as seguintes funcionalidades:
+1. Ver e editar perfil
+2. Cadastrar livro
+3. Acessar acervo (consultar um ou mais livros onde ele poderá ver a sinopse, o autor,
+a editora dentre outras informações; como também encontrar localização física do
+livro. )
+Depois de devidamente autenticado pelo o sistema, o usuário administrador poderá ter
+acesso as seguintes funcionalidades:
+1. Cadastrar, atualizar, remover leitor
+2. Cadastrar, atualizar, remover funcionário
+3. Cadastrar, atualizar, remover livros
+4. Acessar acervo (consultar um ou mais livros onde ele poderá ver a sinopse, o 
+autor, a editora dentre outras informações; como também encontrar
+localização física do livro. localização)
+5. Consultar funcionário
+6. Consultar leitor
+
 ## Membros da equipe:
     - Juliana Lima;
     - Kastier Junior;
