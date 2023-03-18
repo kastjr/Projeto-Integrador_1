@@ -70,6 +70,9 @@ localização física do livro. localização)
 5. Consultar funcionário
 6. Consultar leitor
 
+## Planilha Product Backlog
+A planilha contendo as funcionalidades e com os possíveis tipos de usuários se encontram no link a seguir -> <a href="https://docs.google.com/spreadsheets/d/1Ksi4jhkACkRCPYkdLsODJ8knIGX8_cHcfIRi3m8I2Zg/edit?usp=sharing">Planilha Product Backlog </a>.
+
 ## Membros da equipe:
     - Juliana Lima;
     - Kastier Junior;
