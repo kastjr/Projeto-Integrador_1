@@ -58,21 +58,11 @@ após esse procedimento, poderá ter acesso as seguintes funcionalidades:
 a editora dentre outras informações; como também encontrar localização física do
 livro. )
 
-### Administrador
-Depois de devidamente autenticado pelo o sistema, o usuário administrador poderá ter
-acesso as seguintes funcionalidades:
-1. Cadastrar, atualizar, remover leitor
-2. Cadastrar, atualizar, remover funcionário
-3. Cadastrar, atualizar, remover livros
-4. Acessar acervo (consultar um ou mais livros onde ele poderá ver a sinopse, o 
-autor, a editora dentre outras informações; como também encontrar
-localização física do livro. localização)
-5. Consultar funcionário
-6. Consultar leitor
-
 ## Planilha Product Backlog
 A planilha contendo as funcionalidades e com os possíveis tipos de usuários se encontram no link a seguir -> <a href="https://docs.google.com/spreadsheets/d/1Ksi4jhkACkRCPYkdLsODJ8knIGX8_cHcfIRi3m8I2Zg/edit?usp=sharing">Planilha Product Backlog </a>.
 
+## Wireframes do projeto
+Os wireframes do projeto foi criado usando a ferramenta Figma. Está disponível em -> <a href="https://www.figma.com/file/Zhm53mKzXk1JdnIet8t2WF/AcervBooks-Wireframe?node-id=0%3A1&t=j546w5osomlcquLd-1">Wireframes software AcervBooks</a>
 ## Membros da equipe:
     - Juliana Lima;
     - Kastier Junior;
