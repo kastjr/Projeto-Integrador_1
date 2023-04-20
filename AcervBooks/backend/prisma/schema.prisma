@@ -15,6 +15,10 @@ model User {
   name     String
   email    String
   password String
+  registration String
+  address String 
+  phone String
+  genery String
 
   role Role @default(USER)
 
