@@ -20,7 +20,7 @@ class CreateUserService {
             throw new Error("Registration incorrect!");
         }
 
-        // Verificar se o matrícula já está cadastrado
+        // Verificar se a matrícula já está cadastrada
 
         const userAlreadyExists = await prismaClient.user.findFirst({
             where: {
