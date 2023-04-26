@@ -11,8 +11,12 @@ class DetailUserService {
                 id: user_id
             },
             include: {
-                booksSaved: true,
-            }
+                booksSaved: {
+                    include: {
+                        book: true
+                    }
+                },
+            },
         });
 
         return user;
