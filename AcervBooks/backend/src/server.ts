@@ -5,7 +5,6 @@ import cors from 'cors';
 
 import { router } from './routers';
 
-const port = 3333;
 
 const app = express();
 
@@ -33,4 +32,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
     });
 });
 
-app.listen(port, () => console.log('Servidor online...'));
+app.listen(process.env.PORT, () => console.log('Servidor online...'));
