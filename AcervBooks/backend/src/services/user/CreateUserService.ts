@@ -55,7 +55,8 @@ class CreateUserService {
                 registration: true,
                 address: true,
                 phone: true,
-                genery: true
+                genery: true,
+                role: true
             }
         });
 
