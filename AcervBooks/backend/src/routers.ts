@@ -7,6 +7,7 @@ import { DetailUserController } from './controllers/user/DetailUserController';
 import { CreateBookController } from './controllers/book/CreateBookController';
 
 import { isAuthenticated } from "./middlewares/isAutheticated";
+import { UpdateUserController } from './controllers/user/UpdateUserController';
 
 const router = Router();
 
@@ -18,6 +19,8 @@ router.post('/users', new CreateUserController().handle);
 router.post('/session', new AuthUserController().handle);
 // detalhes do usuário - perfil
 router.get('/me', isAuthenticated, new DetailUserController().handle);
+// atualizar dados do usuário
+router.put('/me', isAuthenticated, new UpdateUserController().handle);
 
 
 // ROTAS BOOK
