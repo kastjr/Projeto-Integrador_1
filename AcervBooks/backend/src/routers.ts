@@ -33,4 +33,7 @@ router.put('/me', isAuthenticated, new UpdateUserController().handle);
 //cadastro de livro
 router.post('/books', isAuthenticated, upload.single('file'), new CreateBookController().handle);
 
+
+// ROTAS ARQUIVOS ESTÁTICOS
+// /files/nome_do_arquivo
 export { router };
