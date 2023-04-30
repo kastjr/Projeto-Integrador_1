@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from "express";
 
 import 'express-async-errors';
 import cors from 'cors';
+import path from "path";
 
 import { router } from './routers';
 
@@ -16,6 +17,12 @@ app.use(cors());
 
 // Rotas
 app.use(router);
+
+// View images
+app.use(
+    '/files',
+    express.static(path.resolve(__dirname, '..', 'tmp'))
+);
 
 // Tratamento de erros 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
