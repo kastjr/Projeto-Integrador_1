@@ -6,7 +6,7 @@ interface DetailRequest {
 
 class DetailUserService {
     async execute({ user_id }: DetailRequest) {
-        const user = await prismaClient.user.findMany({
+        const user = await prismaClient.user.findFirst({
             where: {
                 id: user_id
             },
