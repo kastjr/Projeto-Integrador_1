@@ -12,6 +12,7 @@ import { UpdateUserController } from './controllers/user/UpdateUserController';
 
 import uploadConfig from './config/multer';
 import { UpdateBookController } from './controllers/book/UpdateBookController';
+import { CreateFavoriteBooksController } from './controllers/favoriteBooks/CreateFavoriteBooksController';
 
 const router = Router();
 
@@ -35,6 +36,12 @@ router.put('/me', isAuthenticated, new UpdateUserController().handle);
 router.post('/books', isAuthenticated, upload.single('file'), new CreateBookController().handle);
 // atualizar dados do livro
 router.put('/books', isAuthenticated, upload.single('file'), new UpdateBookController().handle);
+
+
+// ROTAS LIVROS FAVORITOS
+
+// Adicionar livro como favorito
+router.post('/books/favorite', isAuthenticated, new CreateFavoriteBooksController().handle);
 
 // ROTAS ARQUIVOS ESTÁTICOS
 // /files/nome_do_arquivo
