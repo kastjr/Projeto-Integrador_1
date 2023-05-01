@@ -14,6 +14,7 @@ import uploadConfig from './config/multer';
 import { UpdateBookController } from './controllers/book/UpdateBookController';
 import { CreateFavoriteBooksController } from './controllers/favoriteBooks/CreateFavoriteBooksController';
 import { DeleteFavoriteBooksController } from './controllers/favoriteBooks/DeleteFavoriteBooksController';
+import { ListBookController } from './controllers/book/ListBookController';
 
 const router = Router();
 
@@ -37,7 +38,8 @@ router.put('/me', isAuthenticated, new UpdateUserController().handle);
 router.post('/books', isAuthenticated, upload.single('file'), new CreateBookController().handle);
 // atualizar dados do livro
 router.put('/books', isAuthenticated, upload.single('file'), new UpdateBookController().handle);
-
+// listar livros
+router.get('/books', isAuthenticated, new ListBookController().handle);
 
 // ROTAS LIVROS FAVORITOS
 
