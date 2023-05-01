@@ -7,8 +7,6 @@ class ListBookController {
         const perPage = parseInt(req.query.perPage as string) || 10;
         const offset = (page - 1) * perPage;
 
-        console.log(page);
-
         const listBooksService = new ListBookService();
 
         const books = await listBooksService.execute({
