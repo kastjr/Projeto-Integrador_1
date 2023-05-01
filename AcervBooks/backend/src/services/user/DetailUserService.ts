@@ -20,7 +20,7 @@ class DetailUserService {
                 genery: true,
                 role: true,
 
-                booksSaved: {
+                favoriteBooks: {
                     select: {
                         book: {
                             select: {
