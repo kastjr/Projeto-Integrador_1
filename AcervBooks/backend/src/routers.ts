@@ -11,6 +11,7 @@ import { isAuthenticated } from "./middlewares/isAutheticated";
 import { UpdateUserController } from './controllers/user/UpdateUserController';
 
 import uploadConfig from './config/multer';
+import { UpdateBookController } from './controllers/book/UpdateBookController';
 
 const router = Router();
 
@@ -32,7 +33,8 @@ router.put('/me', isAuthenticated, new UpdateUserController().handle);
 
 //cadastro de livro
 router.post('/books', isAuthenticated, upload.single('file'), new CreateBookController().handle);
-
+// atualizar dados do livro
+router.put('/books', isAuthenticated, upload.single('file'), new UpdateBookController().handle);
 
 // ROTAS ARQUIVOS ESTÁTICOS
 // /files/nome_do_arquivo
