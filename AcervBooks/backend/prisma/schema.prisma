@@ -25,7 +25,7 @@ model User {
   createdAt DateTime? @default(now())
   updatedAt DateTime? @updatedAt
 
-  booksSaved BookSaved[]   
+  favoriteBooks FavoriteBooks[]   
 
   @@map("users")
 }
@@ -43,7 +43,7 @@ model Book {
   author   String
   publisher String
 
-  booksSaved BookSaved[]
+  favoriteBooks FavoriteBooks[]
 
   createdAt DateTime? @default(now())
   updatedAt DateTime? @updatedAt
@@ -51,7 +51,7 @@ model Book {
   @@map("books")
 }
 
-model BookSaved {
+model FavoriteBooks {
   id String @id @default(uuid())
 
   createdAt DateTime? @default(now())
@@ -63,7 +63,7 @@ model BookSaved {
   book_id String
   user_id String
 
-  @@map("books_saved")
+  @@map("favoriteBooks")
   
 
 }
