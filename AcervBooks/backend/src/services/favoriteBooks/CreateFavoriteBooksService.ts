@@ -7,7 +7,7 @@ interface FavoriteBooksRequest{
 
 class CreateFavoriteBooksService {
     async execute({ user_id, book_id }: FavoriteBooksRequest){
-        const book_saved = await prismaClient.favoriteBooks.create({
+        const favoriteBook = await prismaClient.favoriteBooks.create({
             data: {
                 user_id: user_id,
                 book_id: book_id
@@ -19,7 +19,7 @@ class CreateFavoriteBooksService {
             }
         });
 
-        return book_saved;
+        return favoriteBook;
     }
 }
 
