@@ -15,6 +15,7 @@ import { UpdateBookController } from './controllers/book/UpdateBookController';
 import { CreateFavoriteBooksController } from './controllers/favoriteBooks/CreateFavoriteBooksController';
 import { DeleteFavoriteBooksController } from './controllers/favoriteBooks/DeleteFavoriteBooksController';
 import { ListBookController } from './controllers/book/ListBookController';
+import { SearchBookController } from './controllers/book/SearchBookController';
 
 const router = Router();
 
@@ -40,6 +41,8 @@ router.post('/books', isAuthenticated, upload.single('file'), new CreateBookCont
 router.put('/books', isAuthenticated, upload.single('file'), new UpdateBookController().handle);
 // listar livros
 router.get('/books', isAuthenticated, new ListBookController().handle);
+// buscar livros
+router.get('/books/search', isAuthenticated, new SearchBookController().handle);
 
 // ROTAS LIVROS FAVORITOS
 
