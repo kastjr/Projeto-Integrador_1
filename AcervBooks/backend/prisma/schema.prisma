@@ -29,6 +29,7 @@ model User {
   favoriteBooks FavoriteBooks[]   
 
   @@map("users")
+  @@index([name, email, registration, address, password, genery])
 }
 
 model Book {
@@ -50,6 +51,7 @@ model Book {
   updatedAt DateTime? @updatedAt
 
   @@map("books")
+  @@index([title, synops, genre, year, edition, language, author, publisher])
 }
 
 model FavoriteBooks {
@@ -65,6 +67,7 @@ model FavoriteBooks {
   user_id String
 
   @@map("favoriteBooks")
+  @@index([book_id, user_id])
   
 
 }
