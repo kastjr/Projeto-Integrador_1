@@ -2,8 +2,13 @@ import { Request, Response } from "express";
 import { SearchBookService } from "../../services/book/SearchBookService";
 
 class SearchBookController{
+   
+
     async handle(req: Request, res: Response){
-        const { term, search_by, year, genre} = req.body;
+        let term = req.body.term as string;
+        term = term.replace(/ /g, "&");;
+        
+        const { search_by, year, genre} = req.body;
         const page = parseInt(req.query.page as string) || 1;
         const perPage = parseInt(req.query.perPage as string) || 10;
 
