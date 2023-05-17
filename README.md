@@ -64,6 +64,9 @@ A planilha contendo as funcionalidades e com os possíveis tipos de usuários se
 ## Wireframes do projeto
 Os wireframes do projeto foi criado usando a ferramenta Figma. Está disponível em -> <a href="https://www.figma.com/file/Zhm53mKzXk1JdnIet8t2WF/AcervBooks-Wireframe?node-id=0%3A1&t=j546w5osomlcquLd-1">Wireframes software AcervBooks</a>
 
+## Artigo do projeto no overleaf
+Relatório sobre o projeto está disponível em: <a href="https://pt.overleaf.com/read/fxfbpqpgbvpr">
+
 ## Descrição dos casos de usos
 https://docs.google.com/document/d/1SUDMO9xvfpWyVF531uqvRyMgw5HADC12olQCG5EqCC4/edit?usp=drivesdk
 ## Membros da equipe:
