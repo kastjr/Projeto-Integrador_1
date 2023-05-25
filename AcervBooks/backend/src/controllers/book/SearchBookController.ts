@@ -33,7 +33,7 @@ class SearchBookController {
 
         const books = await searchBookService.execute({
             term,
-            search_by: search_by,
+            search_by,
             year,
             genre,
             perPage,

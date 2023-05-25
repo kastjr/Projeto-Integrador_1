@@ -16,6 +16,7 @@ import { CreateFavoriteBooksController } from './controllers/favoriteBooks/Creat
 import { DeleteFavoriteBooksController } from './controllers/favoriteBooks/DeleteFavoriteBooksController';
 import { ListBookController } from './controllers/book/ListBookController';
 import { SearchBookController } from './controllers/book/SearchBookController';
+import { GetAutoCompleteController } from './controllers/book/GetAutoCompleteController';
 
 const router = Router();
 
@@ -51,7 +52,9 @@ router.post('/books/favorite', isAuthenticated, new CreateFavoriteBooksControlle
 // Deleter livro favorito
 router.delete('/books/favorite', isAuthenticated, new DeleteFavoriteBooksController().handle);
 
+// Autocomplete
 
+router.get('/books/autocomplete', isAuthenticated, new GetAutoCompleteController().handle);
 // ROTAS ARQUIVOS ESTÁTICOS
 // /files/nome_do_arquivo
 export { router };
