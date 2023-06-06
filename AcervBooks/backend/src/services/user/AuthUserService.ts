@@ -53,6 +53,7 @@ class AuthUserService {
             address: user.address,
             phone: user.phone,
             genery: user.genery,
+            role: user.role,
             token: token
         };
     }
