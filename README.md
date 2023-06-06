@@ -20,7 +20,7 @@ de livros menos penosa e vaga de informações para os usúarios, trazendo mais 
 <p align="justify">
 Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente desenvolvido em 2011 pela então Fog Creek Software. Em 2017, foi adquirido pela empresa australiana Atlassian. Ele opera um modelo de negócio freemium.
 </p>
-<p> Pode ser acessado em <a href="https://trello.com/b/af64KM1e/projeto-integrador">Quadro de Gestão do Projeto</a></p>
+<p> Pode ser acessado em <a href="https://trello.com/b/af64KM1e/projeto-integrador" target="_blank">Quadro de Gestão do Projeto</a></p>
 </p>
 
 ## Tema principal do Projeto:
@@ -59,15 +59,15 @@ a editora dentre outras informações; como também encontrar localização fís
 livro. )
 
 ## Planilha Product Backlog
-A planilha contendo as funcionalidades e com os possíveis tipos de usuários se encontram no link a seguir -> <a href="https://docs.google.com/spreadsheets/d/1Ksi4jhkACkRCPYkdLsODJ8knIGX8_cHcfIRi3m8I2Zg/edit?usp=sharing">Planilha Product Backlog </a>.
+A planilha contendo as funcionalidades e com os possíveis tipos de usuários se encontram no link a seguir -> <a href="https://docs.google.com/spreadsheets/d/1Ksi4jhkACkRCPYkdLsODJ8knIGX8_cHcfIRi3m8I2Zg/edit?usp=sharing" target="_blank">Planilha Product Backlog </a>.
 
 ## Wireframes do projeto
-Os wireframes do projeto foi criado usando a ferramenta Figma. Está disponível em -> <a href="https://www.figma.com/file/Zhm53mKzXk1JdnIet8t2WF/AcervBooks-Wireframe?node-id=0%3A1&t=j546w5osomlcquLd-1">Wireframes software AcervBooks</a>
+Os wireframes do projeto foi criado usando a ferramenta Figma. Está disponível em -> <a href="https://www.figma.com/file/Zhm53mKzXk1JdnIet8t2WF/AcervBooks-Wireframe?node-id=0%3A1&t=j546w5osomlcquLd-1" target="_blank">Wireframes software AcervBooks</a>
 
 ## Artigo do projeto no overleaf
-Relatório sobre o projeto está disponível em: <a href="https://pt.overleaf.com/read/fxfbpqpgbvpr">Relatório Software AcervBooks</a>
+Relatório sobre o projeto está disponível em: <a href="https://pt.overleaf.com/read/fxfbpqpgbvpr" target="_blank">Relatório Software AcervBooks</a>
 ## Documentação da API
-Documentação disponível em: <a href="https://app.swaggerhub.com/apis/enalrehcim/AcervBooks/1.0.0#/Favorite%20Book/post_books_favorite">AcervBooks API</a>
+Documentação disponível em: <a href="https://app.swaggerhub.com/apis/enalrehcim/AcervBooks/1.0.0#/Favorite%20Book/post_books_favorite" target="_blank">AcervBooks API</a>
 ## Descrição dos casos de usos
 https://docs.google.com/document/d/1SUDMO9xvfpWyVF531uqvRyMgw5HADC12olQCG5EqCC4/edit?usp=drivesdk
 ## Membros da equipe:
