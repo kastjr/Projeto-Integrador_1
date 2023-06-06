@@ -8,8 +8,13 @@ interface FavoriteBooksRequest{
 class CreateFavoriteBooksService {
     async execute({ user_id, book_id }: FavoriteBooksRequest){
         const bookAlreadyExits = await prismaClient.favoriteBooks.findFirst({
+            
             where: {
-                book_id: book_id
+                AND: [
+                    {book_id: book_id},
+                    {user_id: user_id},
+                ]
+
             }
         });
 
