@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tela de Cadastro</title>
+    <style>
+        body {
+            background-color: #2c2929;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #2c2929;
+            color: #2c2929;
+        }
+
+        .container {
+            background-color: #f9c6c6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .container p {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .container label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .container .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container .row input[type="text"] {
+            width: 48%;
+        }
+
+        .container button {
+            background-color: #ff8c00;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .container p.bottom-text {
+            margin-top: 20px;
+        }
+
+        .container p.bottom-text a {
+            color: #1b0cf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Primeiro Acesso</h1>
+        <p>Informe os dados para prosseguir</p>
+        <form>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <div class="row">
+                <div>
+                    <label for="matricula">Matrícula:</label>
+                    <input type="text" id="matricula" name="matricula" required>
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="text" id="senha" name="senha" required>
+                </div>
+            </div>
+            
+            <button type="submit">Cadastrar</button>
+            
+            <p class="bottom-text">Já possui cadastro? <a href="#">Faça login aqui</a></p>
+        </form>
+    </div>
+</body>
+</html>
