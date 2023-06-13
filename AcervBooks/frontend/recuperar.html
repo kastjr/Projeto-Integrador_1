@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recuperação de Senha</title>
+    <style>
+        body {
+            background-color: #2c2929;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #2c2929;
+        }
+
+        .container {
+            background-color: #f9c6c6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .container label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .container button {
+            background-color: #ff8c00;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recuperação de Senha</h1>
+        <form>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+            
+            <label for="nova-senha">Nova Senha:</label>
+            <input type="password" id="nova-senha" name="nova-senha" required>
+            
+            <label for="confirmar-senha">Confirmar Senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+            
+            <button type="submit">Recuperar</button>
+        </form>
+    </div>
+</body>
+</html>
