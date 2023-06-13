@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Login</title>
+    <style>
+        body {
+            background-color: #3a3535;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #f9c6c6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #3a3535;
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .container label {
+            color: #3a3535;
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"] {
+            width: 200px;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .container input[type="checkbox"] {
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .container .checkbox-label {
+            color: #3a3535;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        .container a {
+            color: #3a3535;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .container button {
+            background-color: #ff8c00;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .container p {
+            color: #3a3535;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Acervbooks</h1>
+        <form>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <div>
+                <input type="checkbox" id="lembreme" name="lembreme">
+                <label class="checkbox-label" for="lembreme">Lembre-me</label>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+            
+            <button type="submit">Login Now</button>
+            
+            <p>Primeiro Acesso? <a href="#">Entre aqui</a></p>
+        </form>
+    </div>
+</body>
+</html>
