@@ -45,6 +45,7 @@ router.get('/books', isAuthenticated, new ListBookController().handle);
 // buscar livros
 router.get('/books/search', isAuthenticated, new SearchBookController().handle);
 
+
 // ROTAS LIVROS FAVORITOS
 
 // Adicionar livro como favorito

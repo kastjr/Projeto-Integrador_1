@@ -40,6 +40,12 @@ class SearchBookController {
             offset
         });
 
+        if(books.length === 0){
+            return res.status(404).json({
+                "error": "Book not found."
+            });
+        }
+
         return res.json(books);
     }
 }

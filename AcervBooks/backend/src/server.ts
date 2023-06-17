@@ -1,6 +1,7 @@
 import express, { Request, Response, NextFunction } from "express";
 
 import 'express-async-errors';
+import compression from 'compression';
 import cors from 'cors';
 import path from "path";
 
@@ -14,6 +15,9 @@ app.use(express.json());
 
 // Receber requisições de qualquer IP ou Url
 app.use(cors());
+
+// Compressão dos dados
+app.use(compression());
 
 // Rotas
 app.use(router);
