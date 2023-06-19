@@ -1,0 +1,31 @@
+.button {
+    max-width: 600px;
+    width: 10rem;
+    background-color: var(--brown-400);
+    border: 0;
+    padding: 0.4rem;
+    color: var(--white);
+    border-radius: 0.9rem; 
+}
+
+.spin-animation {
+    animation: spin 2s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        tranform: rotate(361deg)
+    }
+}
