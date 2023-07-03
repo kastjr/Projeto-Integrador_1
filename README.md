@@ -66,6 +66,9 @@ Os wireframes do projeto foi criado usando a ferramenta Figma. Está disponível
 
 ## Artigo do projeto no overleaf
 Relatório sobre o projeto está disponível em: <a href="https://pt.overleaf.com/read/fxfbpqpgbvpr" target="_blank">Relatório Software AcervBooks</a>
+
+## Relatório Final
+Relatório final do projeto está disponível em: <a href="https://github.com/kastjr/Projeto-Integrador_1/blob/main/Documentacao/Relat%C3%B3rio/relatorio_final_acervbooks.pdf">Relatório Final do Projeto</a>
 ## Documentação da API
 Documentação disponível em: <a href="https://app.swaggerhub.com/apis/enalrehcim/AcervBooks/1.0.0#/Favorite%20Book/post_books_favorite" target="_blank">AcervBooks API</a>
 ## Descrição dos casos de usos
